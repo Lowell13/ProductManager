@@ -11,6 +11,8 @@
           <element id="library" level="project" name="taglibs-standard-impl-1.2.5" />
           <element id="library" level="project" name="Hibernate lib" />
           <element id="library" level="project" name="mysql-connector-java-5.1.48" />
+          <element id="library" level="project" name="javax.ws.rs-api-2.1.1" />
+          <element id="library" level="project" name="jersey-client" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="ProductManager/web/Web" />

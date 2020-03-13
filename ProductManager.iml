@@ -37,5 +37,6 @@
     <orderEntry type="library" name="mysql-connector-java-5.1.48" level="project" />
     <orderEntry type="library" name="all" level="application" />
     <orderEntry type="library" name="javax.ws.rs-api-2.1.1" level="project" />
+    <orderEntry type="library" name="jersey-client" level="project" />
   </component>
 </module>

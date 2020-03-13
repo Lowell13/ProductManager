@@ -14,7 +14,6 @@ public class ProductResource {
     @GET @Produces(MediaType.APPLICATION_JSON)
     public List<Product> getAllProducts() {
         ProductDao productDao = DaoFactory.getProductDao();
-        System.out.println("I was here !");
         return productDao.findAllProducts();
     }
 

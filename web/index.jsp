@@ -8,15 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
-  <%@include file="/jsp/include/header.jsp"%>
-  <br />
+</head>
+<body>
+<%@include file="/jsp/include/header.jsp"%><br />
 Hello dear <c:if test="${sessionScope.get('username') == null}">customer !</c:if>
-  <c:if test="${sessionScope.get('username') != null}"><c:out value="${sessionScope.get('username')}"></c:out>!</c:if>
-  <br />
-  <%@include file="/jsp/include/footer.jsp"%>
-  </body>
+<c:if test="${sessionScope.get('username') != null}"><c:out value="${sessionScope.get('username')}"></c:out>!</c:if>
+<br />
+<%@include file="/jsp/include/footer.jsp"%>
+</body>
 </html>
